@@ -19,6 +19,7 @@ class QuestionController {
 
     /**
      * @Route("/questions/{slug}")
+     * @param $slug
      * @return Response
      */
     public function show($slug)
